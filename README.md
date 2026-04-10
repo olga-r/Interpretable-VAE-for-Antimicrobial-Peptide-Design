@@ -81,11 +81,14 @@ Applying simple physicochemical filters improves:
 ├   ├── mic_model.py
 ├   └── mic_train.py
 └── example/
-      ├── dbaasp_full_ecoli.csv
-      ├── ecoli_peptide_vae_latent_charge.png
-      ├── ecoli_peptide_vae_latent_hydrophobicity.png
-      ├── ecoli_peptide_vae_latent_mic.png
-      ├── ecoli_peptide_vae_active_region.png
-      ├── ecoli_peptide_vae_MIC_true_predict.png
-      ├── ecoli_peptide_vae_top_focus_candidates.csv
-      └── ecoli_peptide_vae_top_gen_candidates.csv
+├     ├── dbaasp_full_ecoli.csv
+├     ├── ecoli_peptide_vae_latent_charge.png
+├     ├── ecoli_peptide_vae_latent_hydrophobicity.png
+├     ├── ecoli_peptide_vae_latent_mic.png
+├     ├── ecoli_peptide_vae_active_region.png
+├     ├── ecoli_peptide_vae_MIC_true_predict.png
+├     ├── ecoli_peptide_vae_top_focus_candidates.csv
+├     └── ecoli_peptide_vae_top_gen_candidates.csv
+└── analysis/
+      ├── plot_embedding.py
+      └── interpolate_latent.py
