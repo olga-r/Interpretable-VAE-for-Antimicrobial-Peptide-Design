@@ -1,6 +1,5 @@
 # Interpretable-VAE-for-Antimicrobial-Peptide-Design
- This project explores antimicrobial peptide (AMP) generation using a **2D variational autoencoder (VAE)** trained on peptide sequences with experimental MIC values against *Escherichia coli*.
-The main goal is not only to generate peptide-like sequences, but also to obtain an **interpretable 2D latent space** that can be visualized and related to biologically meaningful properties such as activity, charge, and hydrophobicity.
+This teaching project explores the generation of antimicrobial peptides (AMPs) using a two-dimensional variational autoencoder (VAE) that was trained on peptide sequences with known minimum inhibitory concentration (MIC) values against Escherichia coli. The goal is to generate peptide-like sequences and obtain an interpretable 2D latent space that can be visualized and related to properties such as activity, charge, and hydrophobicity.
 
 ---
 
